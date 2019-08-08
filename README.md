@@ -1,6 +1,6 @@
 # garbage_classification
-coding for fun
-
+A simple vgg16 classification model (based Imagnet pretrained model) in pytorch.
+The validation accuracy durning training  is 0.8.
 ## data
 you can collect by yourself in search engine
 
@@ -15,4 +15,6 @@ the file in ./deployment can be used for deployment,run deployment.py for boot s
 PS. request.py is not maintined any more, you can use postman(easy to find download address in google.com) to test the performance
 
 ## Note
-all the path value in code file may cause erro, so please watch out the file path seeting. (The author (myself) left nothing with laziness)
+all the path value in code file may cause erro, so please watch out the file path setting.
+or maybe you can add parameter feature for setting path (The author (myself) left nothing with laziness abou this)
+
