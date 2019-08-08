@@ -13,3 +13,6 @@ after get dataset and model,you can run demo.py to test performance
 ## deployment
 the file in ./deployment can be used for deployment,run deployment.py for boot server and request.py for test 
 PS. request.py is not maintined any more, you can use postman(easy to find download address in google.com) to test the performance
+
+## Note
+all the path value in code file may cause erro, so please watch out the file path seeting. (The author (myself) left nothing with laziness)
