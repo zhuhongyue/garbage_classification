@@ -29,8 +29,8 @@ random_seed= 42
 batch_size = 64
 use_gpu = 1
 use_checkpoint = 1
-data_path = "/home/zjfan/zhuhongyue_unionpay/rubbish_classification/data_rec/"
-checkpoint_path = "/home/zjfan/zhuhongyue_unionpay/rubbish_classification/checkpoint/best_checkpoint.pth.tar"
+data_path = "/data_rec/"
+checkpoint_path = "./checkpoint/best_checkpoint.pth.tar"
 
 #dataset prepare
 np.random.seed(random_seed)
