@@ -18,11 +18,11 @@ from sklearn.metrics import accuracy_score
 import pdb
 use_gpu = 1
 os.environ["CUDA_VISIBLE_DEVICES"] = "2,3"
-checkpoint_path = "/home/zjfan/zhuhongyue_unionpay/rubbish_classification/checkpoint/best_checkpoint.pth.tar"
+checkpoint_path = "./checkpoint/best_checkpoint.pth.tar"
 transform = transforms.Compose([transforms.CenterCrop(224),
                                 transforms.ToTensor(),
                                 transforms.Normalize([0.5,0.5,0.5], [0.5,0.5,0.5])])
-data_path = "/home/zjfan/zhuhongyue_unionpay/rubbish_classification/data_rec/"
+data_path = "./data_rec/"
 dataset=ImageFolder(data_path)
 class_index = dataset.class_to_idx
 img = Image.open('./demo.jfif')  
